@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Ejercicio2{
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
-        System.out.println("INgresa el primer numero:");
+        System.out.println("Ingresa el primer numero:");
         int n1 = entrada.nextInt();
-        System.out.println("INgresa el segundo numero");
+        System.out.println("Ingresa el segundo numero");
         int n2 = entrada.nextInt();
 
         entrada.close();
