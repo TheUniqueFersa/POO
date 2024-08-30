@@ -5,6 +5,7 @@ public class Ejercicio1 {
         Scanner n = new Scanner(System.in);
         System.out.print("Ingresa el numero de filas (mitad del diamante)");
         r = n.nextInt();
+        n.close();
         //Piramide superior:
         for(i=0; i<=r; i++){
             for(j=1; j<=r-i; j++){
@@ -23,6 +24,5 @@ public class Ejercicio1 {
                 System.out.print("*");
             }System.out.println();
         }
-        n.close();
     }
 }
