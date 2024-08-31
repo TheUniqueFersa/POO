@@ -9,9 +9,9 @@ public class Ejercicio3 {
         en.close();
 
         if(Math.abs(n1 - n2) < 0.01){
-            System.out.println("Los números son iguales");
+            System.out.println("Los numeros son iguales");
         } else {
-            System.out.println("Los números no son iguales");
+            System.out.println("Los numeros no son iguales");
         }
     }
 }

@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Ejercicio2 {
     public static void main(String [] args){
         Scanner en = new Scanner(System.in);
-        System.out.print("Ingresa un número: ");
+        System.out.print("Ingresa un numero: ");
         int n = en.nextInt();
         int cont1 = 1;
         int cont2 = 1;
