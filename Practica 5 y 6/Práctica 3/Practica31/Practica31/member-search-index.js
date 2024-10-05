@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"mx.unam.fi.poo.g1.p56.p31","c":"Practica31","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"mx.unam.fi.poo.g1.p56.p31","c":"Practica31","l":"Practica31()","url":"%3Cinit%3E()"}]
