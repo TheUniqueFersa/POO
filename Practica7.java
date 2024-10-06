@@ -27,7 +27,7 @@ public class Practica7 {
         m1.manejoProyectos(); //Se espera que no tenga trabajo asignado
         System.out.println();
 
-        m1.manejoProyectos("Buscador para la empresa");
+        m1.manejoProyectos("Navbar Landing Page");
         m1.terminarTrabajo();
 
 
