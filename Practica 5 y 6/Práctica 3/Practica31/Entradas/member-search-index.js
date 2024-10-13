@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"mx.unam.fi.poo.g1.p56.p31","c":"Entradas","l":"Entradas()","url":"%3Cinit%3E()"},{"p":"mx.unam.fi.poo.g1.p56.p31","c":"Entradas","l":"leerCadena(String)","url":"leerCadena(java.lang.String)"},{"p":"mx.unam.fi.poo.g1.p56.p31","c":"Entradas","l":"leerChar(String)","url":"leerChar(java.lang.String)"}]
