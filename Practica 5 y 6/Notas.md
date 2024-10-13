@@ -2,13 +2,13 @@
 package 
 javac -d [ruta de origen] archivoPrincipal.java
 
-jar -cvfe Proyecto1.jar mx.unam.fi.poo.g1.p56.Proyecto1 mx/unam/fi/poo/gi/p56
+jar -cvfe Proyecto1.jar mx.unam.fi.poo.g1.p56.Proyecto1 mx/unam/fi/poo/g1/p56
 
 jar tf Protecto1.jar
 
 java -jar Clase.jar
 
-javadoc -d . Principal.java
+javadoc -d CarpetaClase Principal.java
 ```
 
 
