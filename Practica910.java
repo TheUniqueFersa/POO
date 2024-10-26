@@ -26,16 +26,20 @@ public class Practica910{
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
         Cadena cad = new Cadena();
-        try {
-            // do{
-            //     System.out.println("");
-            // }
-            // entrada.nextLine()
-            String caa = "Hlll";
-            cad.contVocales(caa);
-            System.out.println("La cadena: " + caa + " tiene vocales");
-        } catch (StringContieneVocalException e) {
-            System.out.println("Error: " + e.getMessage());
-        }
+        String ent = "";
+        do{
+            try {
+                System.out.println("Ingresa una cadena: ");
+                ent = entrada.nextLine();
+                if(!ent.equalsIgnoreCase("-1")){
+                    cad.contVocales(ent);
+                    System.out.println("-> La cadena: " + ent + " tiene vocales\n\n");
+                } else {
+                    System.out.println("Vuelva pronto :)\n");
+                }
+            } catch (StringContieneVocalException e) {
+                System.out.println("Error: " + e.getMessage());
+            }
+        } while(!ent.equalsIgnoreCase("-1"));
     }
 }
