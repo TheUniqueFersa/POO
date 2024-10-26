@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"mx.unam.fi.poo.g1.p56.p2","c":"TrianguloPascal","l":"getFilas()"},{"p":"mx.unam.fi.poo.g1.p56.p2","c":"TrianguloPascal","l":"imprimirTriangulo()"},{"p":"mx.unam.fi.poo.g1.p56.p2","c":"TrianguloPascal","l":"setFilas(int)"},{"p":"mx.unam.fi.poo.g1.p56.p2","c":"TrianguloPascal","l":"TrianguloPascal(int)","url":"%3Cinit%3E(int)"}]
