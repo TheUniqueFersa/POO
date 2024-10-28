@@ -7,6 +7,8 @@
 **/**.class
 **/**.exe
 **/**.o
+**/**.iml
+**/**.drawio
 
 /ignoreMe
 /tests

@@ -1,16 +1,7 @@
-class RaizNegativaException extends Exception{
-    public RaizNegativaException(String mensaje){
-        super(mensaje);
-    }
-}
-class OperacionMatematica{
-    public double raizCuadrada(double numero) throws RaizNegativaException{
-        if(numero < 0){
-            throw new RaizNegativaException("No se puede calcular la raiz");
-        }
-        return Math.sqrt(numero);
-    }
-}
+package mx.unam.fi.poo.g1.p910.Ej1;
+import mx.unam.fi.poo.g1.p910.Ej1.OperacionMatematica;
+import mx.unam.fi.poo.g1.p910.Ej1.RaizNegativaException;
+
 public class Ejercicio1 {
     public static void main(String[] args){
         OperacionMatematica operacion = new OperacionMatematica();
