@@ -1,12 +1,14 @@
-**/**.pdf
-**/**.zip
+# **/**.pdf
+#**/**.zip
 
 **/__MACOSX
 **/.**
 
-**/**.class
+#**/**.class
 **/**.exe
 **/**.o
+**/**.iml
+**/**.drawio
 
 /ignoreMe
 /tests
