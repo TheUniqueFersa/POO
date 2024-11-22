@@ -2,8 +2,15 @@
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-
+/**
+ * Clase que genera un archivo WAV con una señal senoidal.
+ */
 public class GeneraWAV{
+    /**
+     * Convierte un short a un arreglo de bytes en formato little-endian.
+     * @param valor Short a convertir.
+     * @return Arreglo de bytes en formato little-endian.
+     */
     private byte[] convertEndiannessShort(short valor) {
         byte[] resultado;
         byte b1 = (byte)(( valor >> 8 ) & 0xFF) ;
@@ -11,6 +18,11 @@ public class GeneraWAV{
         resultado = new byte[ ]{ b0 ,  b1 };
         return resultado;
     }
+    /**
+     * Convierte un entero a un arreglo de bytes en formato little-endian.
+     * @param valor Entero a convertir.
+     * @return Arreglo de bytes en formato little-endian.
+     */
     private byte[] convertEndiannessInt(int valor) {
         byte[] resultado;
         byte b3 = (byte)(( valor >> 24) & 0xFF) ;
@@ -20,6 +32,16 @@ public class GeneraWAV{
         resultado = new byte[ ]{ b0 ,  b1 , b2 , b3 };
         return resultado;
     }
+    /**
+     * Genera un archivo WAV con una señal senoidal.
+     * @param nombre Nombre del archivo WAV a generar.
+     * @param iTiempo Duración de la señal en segundos.
+     * @param iFrecuenciaMuestreo Frecuencia de muestreo en Hz.
+     * @param iArmonico Número de armónico de la señal.
+     * @throws IllegalArgumentException Si alguno de los parámetros es inválido.
+     * @throws IOException Si ocurre un error al escribir el archivo WAV.
+     * @throws FileNotFoundException Si no se encuentra el archivo de entrada.
+     */
     public void Escribe(String nombre, int iTiempo, int iFrecuenciaMuestreo, int iArmonico) throws IllegalArgumentException {
         if (nombre == null || iTiempo <= 0 || iFrecuenciaMuestreo <= 0 || iArmonico <= 0) {
             throw new IllegalArgumentException("Parámetros inválidos para generar el archivo WAV.");
